@@ -46,6 +46,19 @@
         <!-- slide base -->
         <section>
             <div class="slide-base">
+                <h2>Long-term vs hit & run</h2>
+                <p>Milk the cow vs eat the cow right now</p>
+                <div class="left">
+                    <img src="/css/theme/images/milk.png">
+                </div>
+                <div class="right">
+                    <img src="/css/theme/images/steak.png">
+                </div>
+            </div>
+        </section>
+        <!-- slide base -->
+        <section>
+            <div class="slide-base">
                 <h2>Laminas Project</h2>
                 <ul class="content-left">
                     <li>Formerly Zend Framework</li>
@@ -257,7 +270,7 @@
                     <div class="arrow-right-100"></div>
                     PSR-11
                     <div class="arrow-right-100"></div>
-                    psr/container interface V1
+                    psr/container interface
                     <div class="arrow-right-100"></div>
                     interface implementation
                 </div>
@@ -284,13 +297,13 @@
             <div class="slide-base">
                 <h2>PSR-11 Container interface (servicemanager)</h2>
                 <p>Namespace: Psr\Container</p>
-                <p>psr/container -> V1 service manager 3</p>
-                <p>PSR-11</p>
+                <p>psr/container -> V1 laminas/laminas-servicemanager 3</p>
                 <ul class="content-left">
-                    <li>v1 - service manager 3</li>
-                    <li>v2 - service manager 4</li>
+                    <li>v1 - laminas/laminas-servicemanager 3</li>
+                    <li>v2 - laminas/laminas-servicemanager 4</li>
                     <li class="li-no-bullet">
                         <ul>
+                            <li>created from PSR-11 errata</li>
                             <li>psr/container breaks backward compatibility</li>
                         </ul>
                     </li>
@@ -374,8 +387,14 @@
             <div class="slide-base">
                 <p>Standards are evolving</p>
                 <ul class="content-left">
-                    <li>PSR-2: Coding Style Guide - replaced by PSR-12</li>
-                    <li>Laminas-servicemanager v4</li>
+                    <li>PSR-2: Coding Style Guide</li>
+                    <li class="li-no-bullet">
+                        <ul>
+                            <li>Replaced by PSR-12 and PER</li>
+                        </ul>
+                    </li>
+                    <li>PSR-3: Logger Interface v1, v2, v3</li>
+                    <li>PSR-11: Container Interface v1, v2</li>
                 </ul>
             </div>
             <div class="slide-image">
@@ -503,6 +522,29 @@
                         <ul>
                             <li>Future-proof stability</li>
                             <li>Does not reinvent the wheel</li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="slide-image">
+                    <img src="/css/theme/images/future-proof-wh.png">
+                </div>
+            </div>
+        </section>
+        <!-- slide base -->
+        <section>
+            <div class="slide-base">
+                <ul class="content-left">
+                    <li>The true goal of frameworks</li>
+                    <li class="li-no-bullet">
+                        <ul>
+                            <li>Default functionalities at high level</li>
+                        </ul>
+                    </li>
+                    <li>Frameworkitis</li>
+                    <li class="li-no-bullet">
+                        <ul>
+                            <li>Tries to do too much</li>
+                            <li>Doesn't allow changes to core</li>
                         </ul>
                     </li>
                 </ul>
